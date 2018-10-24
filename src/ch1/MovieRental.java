@@ -1,3 +1,5 @@
+package ch1;
+
 public class MovieRental {
 
     public static void main (String[] args){
@@ -10,7 +12,7 @@ public class MovieRental {
         /*Register nen*/
         Customer customer1 = new Customer("TK");
 
-        /*Start Rental*/
+        /*Start ch1.Rental*/
         Rental rentActivity1 = new Rental (mov1, 3);
         Rental rentActivity2 = new Rental (mov2, 5);
 
